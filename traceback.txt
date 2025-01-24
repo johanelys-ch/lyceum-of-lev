@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call scene1
+  File "game/scenes/Day1/scene1.rpy", line 42, in script
+    s "But how could humans just force monsters out? I mean, in comparison to monsters, wouldn’t humans be…"
+Exception: Sayer 's' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call scene1
+  File "game/scenes/Day1/scene1.rpy", line 42, in script
+    s "But how could humans just force monsters out? I mean, in comparison to monsters, wouldn’t humans be…"
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 2579, in execute
+    Say.execute(self)
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 's' is not defined.
+
+macOS-14.3-arm64-arm-64bit arm64
+Ren'Py 8.3.4.24120703
+Lyceum of Leviathans 1.0
+Thu Jan 23 19:18:54 2025

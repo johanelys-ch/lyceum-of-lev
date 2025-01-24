@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/scenes/Day1/scene1.rpy", line 137: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+         m "(No. Too weird. Way too weird.)”
+
+Ren'Py Version: Ren'Py 8.3.4.24120703
+Thu Jan 23 19:10:10 2025
