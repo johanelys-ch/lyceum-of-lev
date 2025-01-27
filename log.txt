@@ -1,13 +1,13 @@
-2025-01-24 00:18:23 UTC
+2025-01-27 23:47:54 UTC
 macOS-14.3-arm64-arm-64bit
 Ren'Py 8.3.4.24120703
 
 Early init took 0.03s
 Loading error handling took 0.02s
-Loading script took 0.09s
+Loading script took 0.07s
 Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
-Running init code took 0.03s
+Running init code took 0.02s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.01s
@@ -29,7 +29,7 @@ Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.22s
+Interface start took 0.21s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1440, 900)
@@ -41,70 +41,5 @@ Version: b'2.1 Metal - 88'
 Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
 Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 11, in script call
-    call scene1
-  File "game/scenes/Day1/scene1.rpy", line 42, in script
-    s "But how could humans just force monsters out? I mean, in comparison to monsters, wouldn’t humans be…"
-  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 2579, in execute
-    Say.execute(self)
-  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 581, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 470, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 's' is not defined.
-
-While running game code:
-  File "game/script.rpy", line 11, in script call
-    call scene1
-  File "game/scenes/Day1/scene1.rpy", line 42, in script
-    s "But how could humans just force monsters out? I mean, in comparison to monsters, wouldn’t humans be…"
-Exception: Sayer 's' is not defined.
-Resetting cache.
-Early init took 60.76s
-Loading error handling took 0.02s
-Loading script took 0.06s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-Running init code took 0.02s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.01s
-Index archives took 0.00s
-Backing up script files to '/Users/alexolthoff/Library/RenPy/backups/lyceum-of-lev':
-Dump and make backups took 0.03s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.03s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.03s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1440, 900)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Apple'"
-Renderer: b'Apple M1'
-Version: b'2.1 Metal - 88'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1338, 753) drawable=(2676, 1506)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
+True
+False

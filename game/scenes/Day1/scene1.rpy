@@ -16,6 +16,13 @@ label scene1:
      "Take them, for instance. Are they bothering you?"
      m "(Crap. Thanks for getting me involved, best friend...)"
      "(She’s the one with a dumb soft spot for the class clown! What am I supposed to say to fix this?)"
+     
+     $ increase_affinity("Enzo",5)
+    #  $ print(check_affinity("Enzo"))
+    #  $ print(check_enzo_friend()) 
+    #  $ print(check_affinity_max("Enzo")) 
+     $ print(check_affinity_flexible("Enzo",3))
+     $ print(check_affinity_flexible("Enzo",6))
 
 menu:
     "...girl. Obviously.":
