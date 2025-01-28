@@ -2,27 +2,25 @@
 
 While running game code:
   File "game/script.rpy", line 11, in script call
-    call scene1
-  File "game/scenes/Day1/scene1.rpy", line 42, in script
-    s "But how could humans just force monsters out? I mean, in comparison to monsters, wouldn’t humans be…"
-Exception: Sayer 's' is not defined.
+    call D1S1
+  File "game/scenes/scenes/D1S3s.rpy", line 72, in script
+    jump d1s4
+ScriptError: could not find label 'd1s4'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "game/script.rpy", line 11, in script call
-    call scene1
-  File "game/scenes/Day1/scene1.rpy", line 42, in script
-    s "But how could humans just force monsters out? I mean, in comparison to monsters, wouldn’t humans be…"
-  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 2579, in execute
-    Say.execute(self)
-  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 581, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 470, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 's' is not defined.
+    call D1S1
+  File "game/scenes/scenes/D1S3s.rpy", line 72, in script
+    jump d1s4
+  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 1705, in execute
+    rv = renpy.game.script.lookup(target)
+  File "S:\renpy-8.3.4-sdk\renpy\script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'd1s4'.
 
-macOS-14.3-arm64-arm-64bit arm64
+Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.4.24120703
 Lyceum of Leviathans 1.0
-Thu Jan 23 19:18:54 2025
+Tue Jan 28 14:12:12 2025

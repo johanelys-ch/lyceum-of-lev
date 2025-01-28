@@ -18,6 +18,8 @@ init python:
 
     def decrease_affinity(name,amount):
         affinities[name] -= amount
+        if affinities[name] < 0:
+            affinities[name] = 0
     
     # def check_affinity(name):
     #     if affinities[f"{name}Enough"] > affinities[f"{name}"]:
