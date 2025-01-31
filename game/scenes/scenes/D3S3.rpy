@@ -18,7 +18,7 @@ label d3s3:
         c "Plus, I feel like I got you all worked up about some big secret, after all!"
         m "Delightful. It's not a date."
         c "Not a date! See you later!"
-        jump D3S4c
+        jump d3s4c
 
     elif dC:
         m "(I ran back to Colette. I needed a shoulder to cry on.)"
@@ -44,7 +44,7 @@ label d3s3:
             c "Of course you will."
             m "SAAAAAAD."
             c "There, there."
-            jump D3S4c
+            jump d3s4c
     
     else:
         m "(I ran back to Colette. I couldn't wait to tell her the good news.)"

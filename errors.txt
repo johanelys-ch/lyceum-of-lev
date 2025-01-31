@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scenes/D1S1.rpy", line 84: end of line expected.
-    hide enzo_confused, scylla_confused, roger_serious
-                      ^
+File "game/scenes/scenes/D3S5.rpy", line 2: end of line expected.
+    call call application_form_three()
+              ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Thu Jan 30 18:59:56 2025
+Fri Jan 31 00:52:58 2025

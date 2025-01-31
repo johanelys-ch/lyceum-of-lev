@@ -413,7 +413,7 @@ label D2S3:
 
         menu:
                 "It's a little far-fetched. Working in secret without state institutions?":
-                    jump d2s3z7morA
+                    jump d2s3z6morA
                 "I love it! The will of the people in defiance of a ruling class thirsting for war!":
                     jump d2s3z7mazA
                 "A much simpler explanation is just that they all got killed, right?":

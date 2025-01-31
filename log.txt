@@ -1,101 +1,661 @@
-2025-01-31 00:52:57 UTC
-Windows-10-10.0.22631
+2025-01-31 05:50:19 UTC
+macOS-14.3-arm64-arm-64bit
 Ren'Py 8.3.4.24120703
 
-Early init took 0.09s
-Loading error handling took 0.04s
-Loading script took 0.49s
-Loading save slot metadata took 0.05s
+Early init took 0.03s
+Loading error handling took 0.03s
+Loading script took 0.75s
+Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
-Running init code took 0.07s
+
+File "game/application-system/application_helpers.rpy", line 41: invalid syntax
+        attended_classes = [classy in classes if classy]
+                                                        ^
+
+File "game/scenes/scenes/D1S4.rpy", line 3: expected statement.
+    calculate_day_one
+                     ^
+
+File "game/scenes/scenes/D2S6.rpy", line 3: expected statement.
+    calculate_day_two()
+                       ^
+
+File "game/scenes/scenes/D3S5.rpy", line 2: end of line expected.
+    call call application_form_three()
+              ^
+
+File "game/scenes/scenes/D3S5.rpy", line 3: expected statement.
+    calculate_day_three()
+                         ^
+DPI scale factor: 1.000000
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 88'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1406, 791) drawable=(2812, 1582)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 128.64s
+Loading error handling took 0.03s
+Loading script took 0.68s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+
+File "game/scenes/scenes/D1S4.rpy", line 3: expected statement.
+    calculate_day_one()
+                       ^
+
+File "game/scenes/scenes/D2S6.rpy", line 3: expected statement.
+    calculate_day_two()
+                       ^
+
+File "game/scenes/scenes/D3S5.rpy", line 2: end of line expected.
+    call call application_form_three()
+              ^
+
+File "game/scenes/scenes/D3S5.rpy", line 3: expected statement.
+    calculate_day_three()
+                         ^
+DPI scale factor: 1.000000
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 88'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1406, 791) drawable=(2812, 1582)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 158.39s
+Loading error handling took 0.03s
+Loading script took 0.68s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+
+File "game/scenes/scenes/D3S5.rpy", line 2: end of line expected.
+    call call application_form_three()
+              ^
+DPI scale factor: 1.000000
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 88'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1406, 791) drawable=(2812, 1582)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 170.44s
+Loading error handling took 0.03s
+Loading script took 0.50s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.05s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
+Reloading save slot metadata took 0.01s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.07s
+Backing up script files to '/Users/alexolthoff/Library/RenPy/backups/lyceum-of-lev':
+Dump and make backups took 0.03s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.05s
+Initial gc took 0.02s
 DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.44s
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.05s
+Init translation took 0.02s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.03s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
 Running _start took 0.00s
-Interface start took 0.06s
+Interface start took 0.07s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
+primary display bounds: (0, 0, 1440, 900)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 88'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1077, 606) drawable=(1077, 606)
+Screen sizes: virtual=(1920, 1080) physical=(1406, 791) drawable=(2812, 1582)
 Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D1S4.rpy", line 2, in script call
+    call application_form_one()
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 1420, in execute
+    rv = renpy.game.context().call(label, return_site=self.next.name)
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D1S4.rpy", line 2, in script call
+    call application_form_one()
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'application_form_one'.
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D1S4.rpy", line 2, in script call
+    call application_form_one()
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D1S4.rpy", line 2, in script call
+    call application_form_one()
+ScriptError: could not find label 'application_form_one'.
 Resetting cache.
-Early init took 2969.65s
-Loading error handling took 0.03s
-Loading script took 0.41s
-Loading save slot metadata took 0.04s
+Early init took 312.49s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/alexolthoff/Library/RenPy/backups/lyceum-of-lev':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 88'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1406, 791) drawable=(2812, 1582)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D1S4.rpy", line 3, in script
+    $ calculate_day_one()
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/scenes/scenes/D1S4.rpy", line 3, in <module>
+    $ calculate_day_one()
+  File "game/application-system/application_helpers.rpy", line 44, in calculate_day_one
+    elif len(attended_classes >8):
+TypeError: '>' not supported between instances of 'RevertableList' and 'int'
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D1S4.rpy", line 3, in script
+    $ calculate_day_one()
+  File "game/scenes/scenes/D1S4.rpy", line 3, in <module>
+    $ calculate_day_one()
+  File "game/application-system/application_helpers.rpy", line 44, in calculate_day_one
+    elif len(attended_classes >8):
+TypeError: '>' not supported between instances of 'RevertableList' and 'int'
+Resetting cache.
+Early init took 370.91s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/alexolthoff/Library/RenPy/backups/lyceum-of-lev':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.04s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 88'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1406, 791) drawable=(2812, 1582)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D1S4.rpy", line 3, in script
+    $ calculate_day_one()
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/scenes/scenes/D1S4.rpy", line 3, in <module>
+    $ calculate_day_one()
+  File "game/application-system/application_helpers.rpy", line 47, in calculate_day_one
+    community_college_score += 1
+UnboundLocalError: local variable 'community_college_score' referenced before assignment
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D1S4.rpy", line 3, in script
+    $ calculate_day_one()
+  File "game/scenes/scenes/D1S4.rpy", line 3, in <module>
+    $ calculate_day_one()
+  File "game/application-system/application_helpers.rpy", line 47, in calculate_day_one
+    community_college_score += 1
+UnboundLocalError: local variable 'community_college_score' referenced before assignment
+Resetting cache.
+Early init took 401.92s
+Loading error handling took 0.01s
+Loading script took 0.09s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 88'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1406, 791) drawable=(2812, 1582)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D1S4.rpy", line 3, in script
+    $ calculate_day_one()
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/scenes/scenes/D1S4.rpy", line 3, in <module>
+    $ calculate_day_one()
+  File "game/application-system/application_helpers.rpy", line 47, in calculate_day_one
+    community_college_score += 1
+UnboundLocalError: local variable 'community_college_score' referenced before assignment
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D1S4.rpy", line 3, in script
+    $ calculate_day_one()
+  File "game/scenes/scenes/D1S4.rpy", line 3, in <module>
+    $ calculate_day_one()
+  File "game/application-system/application_helpers.rpy", line 47, in calculate_day_one
+    community_college_score += 1
+UnboundLocalError: local variable 'community_college_score' referenced before assignment
+Resetting cache.
+Early init took 449.21s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.01s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/alexolthoff/Library/RenPy/backups/lyceum-of-lev':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 88'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1406, 791) drawable=(2812, 1582)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D2S3.rpy", line 418, in script
+    jump d2s3z7mazA
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 1705, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'd2s3z7mazA'.
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D2S3.rpy", line 418, in script
+    jump d2s3z7mazA
+ScriptError: could not find label 'd2s3z7mazA'.
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D2S3.rpy", line 416, in script
+    jump d2s3z7morA
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 1705, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'd2s3z7morA'.
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D2S3.rpy", line 416, in script
+    jump d2s3z7morA
+ScriptError: could not find label 'd2s3z7morA'.
+Resetting cache.
+Early init took 638.81s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
 Running init code took 0.03s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.08s
+Backing up script files to '/Users/alexolthoff/Library/RenPy/backups/lyceum-of-lev':
+Dump and make backups took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.06s
+Initial gc took 0.05s
 DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.29s
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.05s
+Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.01s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.05s
+Interface start took 0.09s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
+primary display bounds: (0, 0, 1440, 900)
 swap interval: 1 frames
 Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 88'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1077, 606) drawable=(1077, 606)
+Screen sizes: virtual=(1920, 1080) physical=(1406, 791) drawable=(2812, 1582)
 Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D2S6.rpy", line 3, in script
+    $ calculate_day_two()
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 827, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/scenes/scenes/D2S6.rpy", line 3, in <module>
+    $ calculate_day_two()
+  File "game/application-system/application_helpers.rpy", line 77, in calculate_day_two
+    community_college_score += 1
+UnboundLocalError: local variable 'community_college_score' referenced before assignment
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D2S6.rpy", line 3, in script
+    $ calculate_day_two()
+  File "game/scenes/scenes/D2S6.rpy", line 3, in <module>
+    $ calculate_day_two()
+  File "game/application-system/application_helpers.rpy", line 77, in calculate_day_two
+    community_college_score += 1
+UnboundLocalError: local variable 'community_college_score' referenced before assignment
+Resetting cache.
+Early init took 964.94s
+Loading error handling took 0.01s
+Loading script took 0.08s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/alexolthoff/Library/RenPy/backups/lyceum-of-lev':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.00s
+Init translation took 0.02s
 Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
 Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 88'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1406, 791) drawable=(2812, 1582)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D3S3.rpy", line 47, in script
+    jump D3S4c
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 1705, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'D3S4c'.
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D3S3.rpy", line 47, in script
+    jump D3S4c
+ScriptError: could not find label 'D3S4c'.
+Resetting cache.
+Early init took 1072.45s
+Loading error handling took 0.01s
+Loading script took 0.10s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/alexolthoff/Library/RenPy/backups/lyceum-of-lev':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.00s
+Init translation took 0.02s
 Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.01s
 Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 88'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1406, 791) drawable=(2812, 1582)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D3S3.rpy", line 47, in script
+    jump D3S4c
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/ast.py", line 1705, in execute
+    rv = renpy.game.script.lookup(target)
+  File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/script.py", line 1103, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'D3S4c'.
+
+While running game code:
+  File "game/script.rpy", line 11, in script call
+    call D1S1
+  File "game/scenes/scenes/D3S3.rpy", line 47, in script
+    jump D3S4c
+ScriptError: could not find label 'D3S4c'.
+Resetting cache.
+Early init took 1106.43s
+Loading error handling took 0.01s
+Loading script took 0.07s
+Loading save slot metadata took 0.01s
+Loading persistent took 0.00s
+Running init code took 0.02s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to '/Users/alexolthoff/Library/RenPy/backups/lyceum-of-lev':
+Dump and make backups took 0.03s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1440, 900)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Apple'"
+Renderer: b'Apple M1'
+Version: b'2.1 Metal - 88'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1406, 791) drawable=(2812, 1582)
+Maximum texture size: 4096x4096

@@ -1,3 +1,4 @@
 label D2S6:
-# College app #2
+    call screen application_form_two()
+    $ calculate_day_two()
     jump D3S1
