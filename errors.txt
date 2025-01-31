@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scenes/D1S2.rpy", line 89: expected 'image_name_component' not found.
-    show [scylla concerned]
-         ^
-
-File "game/scenes/scenes/D1S2.rpy", line 99: expected 'image_name_component' not found.
-    show [scylla surprise]
-         ^
+File "game/scenes/scenes/D1S1.rpy", line 84: end of line expected.
+    hide enzo_confused, scylla_confused, roger_serious
+                      ^
 
 Ren'Py Version: Ren'Py 8.3.4.24120703
-Tue Jan 28 13:28:03 2025
+Thu Jan 30 18:59:56 2025

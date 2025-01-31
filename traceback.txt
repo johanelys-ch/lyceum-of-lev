@@ -3,24 +3,32 @@
 While running game code:
   File "game/script.rpy", line 11, in script call
     call D1S1
-  File "game/scenes/scenes/D1S3s.rpy", line 72, in script
-    jump d1s4
-ScriptError: could not find label 'd1s4'.
+  File "game/scenes/scenes/D1S1.rpy", line 79, in script
+    show scylla_confused right
+Exception: Image 'scylla_confused' does not accept attributes 'right'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "game/script.rpy", line 11, in script call
     call D1S1
-  File "game/scenes/scenes/D1S3s.rpy", line 72, in script
-    jump d1s4
-  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 1705, in execute
-    rv = renpy.game.script.lookup(target)
-  File "S:\renpy-8.3.4-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'd1s4'.
+  File "game/scenes/scenes/D1S1.rpy", line 79, in script
+    show scylla_confused right
+  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 1117, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 1080, in show_imspec
+    renpy.config.show(name,
+  File "S:\renpy-8.3.4-sdk\renpy\exports\displayexports.py", line 477, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "S:\renpy-8.3.4-sdk\renpy\display\image.py", line 421, in find_target
+    self.target = target._duplicate(a)
+  File "S:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 249, in _duplicate
+    args.extraneous()
+  File "S:\renpy-8.3.4-sdk\renpy\display\displayable.py", line 109, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'scylla_confused' does not accept attributes 'right'.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.3.4.24120703
 Lyceum of Leviathans 1.0
-Tue Jan 28 14:12:12 2025
+Thu Jan 30 19:04:09 2025

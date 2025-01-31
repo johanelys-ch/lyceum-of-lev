@@ -5,5 +5,5 @@ define e = Character('Enzo', color="#c8ffc8")
 define s = Character('Scylla', color="#c8ffc8")
 define m = Character('Me', color="#c8ffc8")
 define va = Character('Leira', color="#c8ffc8")
-define vb = Character('Monica', color="#c8ffc8")
+define vb = Character('Carmilla', color="#c8ffc8")
 default playerName = ""

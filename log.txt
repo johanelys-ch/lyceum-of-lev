@@ -1,302 +1,35 @@
-2025-01-28 17:30:17 UTC
+2025-01-31 00:52:57 UTC
 Windows-10-10.0.22631
 Ren'Py 8.3.4.24120703
 
-Early init took 0.07s
-Loading error handling took 0.03s
-Loading script took 0.24s
-Loading save slot metadata took 0.04s
+Early init took 0.09s
+Loading error handling took 0.04s
+Loading script took 0.49s
+Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
-Running init code took 0.06s
+Running init code took 0.07s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.34s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S2.rpy", line 134, in script call
-    call D1S3r
-  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 1420, in execute
-    rv = renpy.game.context().call(label, return_site=self.next.name)
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S2.rpy", line 134, in script call
-    call D1S3r
-  File "S:\renpy-8.3.4-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'D1S3r'.
-
-While running game code:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S2.rpy", line 134, in script call
-    call D1S3r
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S2.rpy", line 134, in script call
-    call D1S3r
-ScriptError: could not find label 'D1S3r'.
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S2.rpy", line 134, in script call
-    call D1S3r
-  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 1420, in execute
-    rv = renpy.game.context().call(label, return_site=self.next.name)
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S2.rpy", line 134, in script call
-    call D1S3r
-  File "S:\renpy-8.3.4-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'D1S3r'.
-
-While running game code:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S2.rpy", line 134, in script call
-    call D1S3r
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S2.rpy", line 134, in script call
-    call D1S3r
-ScriptError: could not find label 'D1S3r'.
-Resetting cache.
-Early init took 187.64s
-Loading error handling took 0.03s
-Loading script took 0.18s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.29s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 490.98s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S3r.rpy", line 154, in script
-    jump d2s4
-  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 1705, in execute
-    rv = renpy.game.script.lookup(target)
-  File "S:\renpy-8.3.4-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'd2s4'.
-
-While running game code:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S3r.rpy", line 154, in script
-    jump d2s4
-ScriptError: could not find label 'd2s4'.
-Resetting cache.
-Early init took 606.10s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
+Reloading save slot metadata took 0.04s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
 Dump and make backups took 0.07s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.06s
+Initial gc took 0.05s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
+Creating interface object took 0.44s
 Cleaning stores took 0.00s
-Init translation took 0.03s
+Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.06s
+Prepare screens took 0.07s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-0
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-2
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 807.81s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.32s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.03s
 Running _start took 0.00s
 Interface start took 0.06s
 
@@ -308,423 +41,36 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 536.99'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2519, 1417) drawable=(2519, 1417)
+Screen sizes: virtual=(1920, 1080) physical=(1077, 606) drawable=(1077, 606)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 812.78s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.34s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2519, 1417) drawable=(2519, 1417)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1742.47s
-Loading error handling took 0.02s
-Loading script took 0.21s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.34s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2519, 1417) drawable=(2519, 1417)
-Maximum texture size: 4096x4096
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1859.46s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2206.44s
-Loading error handling took 0.02s
-Loading script took 0.18s
+Early init took 2969.65s
+Loading error handling took 0.03s
+Loading script took 0.41s
 Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
 Running init code took 0.03s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
+Reloading save slot metadata took 0.04s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.06s
+Dump and make backups took 0.08s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc took 0.06s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
+Creating interface object took 0.29s
 Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S3s.rpy", line 7, in script
-    va "I don't remember this formation."
-  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
-    Say.execute(self)
-  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'va' is not defined.
-
-While running game code:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S3s.rpy", line 7, in script
-    va "I don't remember this formation."
-Exception: Sayer 'va' is not defined.
-Resetting cache.
-Early init took 2383.78s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S3s.rpy", line 72, in script
-    jump d1s4
-  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 1705, in execute
-    rv = renpy.game.script.lookup(target)
-  File "S:\renpy-8.3.4-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'd1s4'.
-
-While running game code:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S3s.rpy", line 72, in script
-    jump d1s4
-ScriptError: could not find label 'd1s4'.
-Resetting cache.
-Early init took 2503.34s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.30s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S3s.rpy", line 72, in script
-    jump d1s4
-  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 1705, in execute
-    rv = renpy.game.script.lookup(target)
-  File "S:\renpy-8.3.4-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'd1s4'.
-
-While running game code:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S3s.rpy", line 72, in script
-    jump d1s4
-ScriptError: could not find label 'd1s4'.
-Resetting cache.
-Early init took 2514.36s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.29s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S3s.rpy", line 72, in script
-    jump d1s4
-  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 1705, in execute
-    rv = renpy.game.script.lookup(target)
-  File "S:\renpy-8.3.4-sdk\renpy\script.py", line 1103, in lookup
-    raise ScriptError("could not find label '%s'." % str(original))
-ScriptError: could not find label 'd1s4'.
-
-While running game code:
-  File "game/script.rpy", line 11, in script call
-    call D1S1
-  File "game/scenes/scenes/D1S3s.rpy", line 72, in script
-    jump d1s4
-ScriptError: could not find label 'd1s4'.
-Resetting cache.
-Early init took 2585.33s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.01s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Interface start took 0.05s
@@ -737,53 +83,7 @@ Vendor: "b'NVIDIA Corporation'"
 Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
 Version: b'4.6.0 NVIDIA 536.99'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2604.68s
-Loading error handling took 0.04s
-Loading script took 0.15s
-Loading save slot metadata took 0.05s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.29s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
+Screen sizes: virtual=(1920, 1080) physical=(1077, 606) drawable=(1077, 606)
 Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s
@@ -792,47 +92,10 @@ Load screen analysis took 0.03s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
-Resetting cache.
-Early init took 2657.36s
-Loading error handling took 0.03s
-Loading script took 0.22s
-Loading save slot metadata took 0.05s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Johnson\\AppData\\Roaming/RenPy/backups\\lyceum-of-lev':
-Dump and make backups took 0.06s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Creating interface object took 0.31s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
 Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 536.99'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(2560, 1417) drawable=(2560, 1417)
-Maximum texture size: 4096x4096
