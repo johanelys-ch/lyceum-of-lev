@@ -1,4 +1,7 @@
+image bg forest = "forest.png"
+
 label d3s4s:
+    scene bg forest with dissolve
     m "(The further I walked into the forest, the quieter it got. Yet I couldn't shake the feeling that I was not alone.)"
     m "(Nothing seemed that special about the spot… some ruins of an old structure, maybe a well or a fountain?)"
     m "Am I lost? Did I go to the right place…"
@@ -31,7 +34,7 @@ label d3s4sz3:
 
 label d3s4sz4:
     s "Now, uh, ok, phew. Here we go…"
-    s "{size=*0.5)You can do this. You can do this.{/size}"
+    s "{size=*0.5}You can do this. You can do this.{/size}"
     s "You, uh, remember history class?"
     m "...yeah?"
     s "So, this is… kind of related to that…"
@@ -53,8 +56,9 @@ label d3s4sz5:
     s "Gah…. OK."
     s "Monsters didn't disappear 500 years ago. They just went into hiding."
     s "I know this because…"
-    # show scylla
+    show scylla_monster_blush with dissolve
     s "I'm kind of a sea monster."
+    hide scylla_monster_blush
 
     menu: 
         "Only kind of, you say?":
@@ -63,8 +67,10 @@ label d3s4sz5:
             jump d3s4sz7
 
 label d3s4sz6:
-    $ increase_affinity("Scylla", 1)  
-    s "{i}That's{/i} your reaction? You're not shocked? You're just {/i}teasing{/i} me?"
+    $ increase_affinity("Scylla", 1)
+    show scylla_monster_surprised  
+    s "{i}That's{/i} your reaction? You're not shocked? You're just {i}teasing{/i} me?"
+    hide scylla_monster_surprised
 
     menu:
         "But that's our thing!":
@@ -73,16 +79,22 @@ label d3s4sz6:
             jump d3s4sz7
 
 label d3s4sz8:
+    show scylla_monster_surprised
     s "Well… I suppose this is going well then…"
     s "But be serious! This is huge news to you, right?"
+    hide scylla_monster_surprised
     jump d3s4szQ
 
 label d3s4sz7:
+    show scylla_monster_surprised
     s "Yeah, I'm sure it must be a lot to take in!"
+    hide scylla_monster_surprised
     jump d3s4szQ
 
 label d3s4szQ:
+    show scylla_monster_surprised
     s "I bet you're full of questions!"
+    hide scylla_monster_surprised
 
     menu: 
         "What do you mean by monsters have been in hiding?":
@@ -116,7 +128,7 @@ label d3s4szQ3:
     jump d3s4szQ
 
 label d3s4szsooo:
-    s "Well, one pretty big one obviously."
+    s "Well, I've got a question... one pretty big one obviously."
     s "I like you a lot. But are {i}you{/i}... ok with this?"
     
     menu: 
@@ -131,16 +143,20 @@ label d3s4sbad:
     if not d4:
         $ d4 = True
         $ decrease_affinity("Scylla", 15)  
+    show scylla_monster_angry
     s "...what the hell?"
     s "That's what you think? Even after getting to know me?"
     s "I should have listened to Roger… do you know how bad {i}that{/i} feels?"
+    hide scylla_monster_angry
     # fade to black
     jump d4s0
 
 label d3s4sz8A:
     $ increase_affinity("Scylla", 1)  
+    show scylla_monster_blush
     s "[playerName]..."
     s "Can I kiss you?"
+    hide scylla_monster_blush
     menu:
         "Oh my god, finally!":
             jump d3s4sSWAK
@@ -159,7 +175,10 @@ label d3s4sz9:
             jump d3s4sz11
 
 label d3s4sz10:
+    show scylla_monster_blush
     s "Yes, dummy."
+    hide scylla_monster_blush
+
     menu: 
         "Ok, cool, seemed good to communicate. Still yes!":
             jump d3s4sSWAK
@@ -240,7 +259,7 @@ label d3s4sSWAK:
     $ increase_affinity("Scylla", 5)  
     s "Wow… it's really happening…"
     s "You have no idea how long I've wanted to do this…"
-
-# show the smooch art
+    scene bg_scylla_kiss with dissolve
+    pause 3.5
 # fade to black
     jump D3S5

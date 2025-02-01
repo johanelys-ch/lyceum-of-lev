@@ -1,6 +1,6 @@
 label D2S1:
     label d2s1z1:
-        show nextday with dissolve
+        # show nextday with dissolve
         scene bg_school_front
     # maybe just a title card of some kind saying "DAY 2" or something, so we don't need to narrate "and then it was the next day"
         show colette_smile
@@ -73,7 +73,7 @@ label D2S1:
         e "And here you are, debating right now!"
         e "Who would any of us be to gatekeep which debate gets to be part of {i}the{/i} debate?"
         r "You're still just justifying your own laziness!"
-        hide enzo_smirk 
+        hide enzo_smile 
         hide roger_angry
         show colette_serious
         c "Um, tick tock! I don't have all day. [playerName], what do you think?"
@@ -133,7 +133,7 @@ label D2S1:
         show roger_serious
         r "Well, I've had enough of this. Look, even if you start now, you don't have time to finish."
         m "(Despite there being a watch visible on his wrist, Roger lifted up his sleeve to check the time on a second watch…)"
-        "(This kid's a character.)"
+        m "(This kid's a character.)"
         r "See you in class if you ever finish literally the first assignment."
         hide roger_serious
         show colette_serious
@@ -168,24 +168,30 @@ label D2S1:
         hide enzo_smirk
         show scylla_smile
         s "Hi everyone! What's fascinating?"
+        hide scylla_smile
+        show colette_angry
         c "That I didn't do the homework. Apparently it's all anyone wants to talk about this morning."
         c "Come on, best friend. I'm still going to write my page myself! I just need a little… help knowing what to write about!"
         c "It's not like I'm going to college anyway."
-        hide scylla_smile
+        hide colette_angry
         show enzo_confused
         e "I thought we were going to community college together!"
+        hide enzo_confused
+        show enzo_confused at right
+        show colette_confused at left
         c "Well, yeah, duh, I'm not counting that. I mean like {i}fancy{/i} college for {i}rich{/i} people."
         e "...{i}you're{/i} rich."
+        hide colette_confused
         hide enzo_confused
-        show colette_blush
+        show colette_embarrassed
         c "I know {i}that{/i}! That's not the point." 
         c "It's a political statement."
         m "Is that how that works?"
-        hide colette_blush
+        hide colette_embarrassed
         show scylla_confused at left
-        show enzo_smile at right
         s "...are we still talking about the homework?"
         s "Because, honestly, I did struggle with a good answer for question three…"
+        show enzo_smile at right
         e "How convenient! [playerName] was just going to tell us all the correct answer for question three."
         m "I don't know about \"correct\"... it's kind of complicated…"
         e "Tell us the objective truth of the world!"
@@ -308,10 +314,12 @@ label D2S1:
         jump D2S2fin
 
     label D2S2s:
+        show colette_laugh
         c "Come on… the classic \"shoulder to cry on\" with Scylla?"
         c "Who do you think you're talking to?"
         # z snaps
         c "I know all the moves."
+        hide colette_laugh
 
         menu:
             "Any tips, then?":
@@ -322,29 +330,41 @@ label D2S1:
                 jump D2S2s3
 
     label D2S2s1:
+        show colette_smile
         c "Finally, you've come to the expert for guidance. Listen well, my student."
         m "Is it too late to change my mind?"
         c "Hush. Let me guide you to your heart's desire."
         c "If it were me… I'd try not to overwhelm her."
         c "Someone who's always trying so hard doesn't want to date someone who just feels like more expectations, you know?"
+        hide colette_smile
         jump D2S2fin
 
     label D2S2s2:
+        show colette_serious
         c "Actually, I bet, more than anything else, she probably could use someone to talk to."
         c "I think she probably needs at least one person in her life who isn't telling her what to do all the time…"
+        hide colette_serious
         jump D2S2fin
 
     label D2S2s3:
+        show colette_smirk
         c "Well… I'd be careful about {i}which{/i} moves you use, player."
         c "Something tells me that Scylla isn't one to rush into things…"
+        hide colette_smirk
         jump D2S2fin
 
     label D2S2r:
+        show colette_smirk
         c "I saw you waiting for Roger after class…"
         m "Yeah, I know you did. You took a photo of me falling down the stairs."
+        show colette_laugh
         c "I'm documenting your blossoming romance! What kind of friend would I be otherwise?"
         m "...{i}of me falling down the stairs???{/i}"
+        show colette_awe
         c "Falling down the stairs… falling in {i}love{/i}...?"
+        hide colette_awe
+        hide colette_laugh
+        hide colette_smirk
 
         menu:
             "You got me. I like a bad boy.":

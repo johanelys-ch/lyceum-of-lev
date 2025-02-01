@@ -259,8 +259,8 @@ label D1S3e:
         c "...bad."
         e "Funny bad or bad bad?"
         m "I'm just saying, is the prank still funny if it's just creating more work for the custodial staff?"
-        hide colette_concerned
         hide enzo_confused
+        hide colette_concerned
         show enzo_smirk at left
         show colette_confused at right
         e "Oh, no, I'm {i}assuming{/i} I'll get caught and cleanup will be my punishment."
@@ -299,12 +299,12 @@ label D1S3e:
         e "I'm ok to keep working on the jerseys…"
         m "(I look down. Somehow they've already completed the second jersey in the time we've been talking.)"
         e "Colette, would you show our newest ne'er-do-well the necessary…"
-        hide enzo_smirk
         show enzo_confused
         e "...needed things…"
         e "Ok, that one got away from me."
         e "I can't be on the clock all the time."
         hide enzo_confused
+        hide enzo_smirk
         show colette_smile
         c "We're just cutting out the numbers and attaching them to the jerseys."
         c "I'm doing this job because I'm the one who's good at math."

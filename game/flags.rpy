@@ -15,3 +15,6 @@ default d4 = False
 
 default Colenzo = False
 default Va = False # vampire academy
+
+define flash = Fade(0.1, 0.0, 0.5, color="#fff")
+define fadehold = Fade(0.5, 2.0, 0.5)

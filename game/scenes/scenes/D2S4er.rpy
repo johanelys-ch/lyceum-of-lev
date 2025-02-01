@@ -20,7 +20,7 @@ label D2S4er:
         r "This is starting to look like a madhouse."
         e "Whatever, you're just mad that someone here knows how to have real fun."
         r "Not mad. Just annoyed. You think you can get away with turning the school into your personal playground."
-        show enzo_confused at left
+        show enzo_confused at right
         e "Lighten up, man. It's harmless!"
         e "Hey, what do you think, [playerName]? You're in, right?" 
         e "Just imagine Lalonde's face when she opens the door tomorrow and there are just a hundred balloons waiting to unleash the power of confetti."
@@ -28,6 +28,8 @@ label D2S4er:
         m "(They're both looking at me now. Do I really have to choose between them?)"
         hide enzo_confused
         hide roger_angry
+        hide roger_serious
+        hide enzo_angry
 
         menu:
                 "I don't know, Enzo… I think you need {i}two{/i} hundred balloons.":
@@ -93,4 +95,4 @@ label D2S4er:
                 "Enzo":
                         jump D2S5ez1
                 "Roger":
-                        jump D2S5rz1
+                        jump D2S5rz1 

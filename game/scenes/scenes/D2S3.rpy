@@ -274,35 +274,51 @@ label D2S3:
     label d2s3z5maz:
         $ increase_affinity("Enzo", 1)
         $ increase_affinity("Lalonde", 1)
-        
+        show enzo_smile at right
         e "Yes… see how they pit the proletariat against each other."
         s "Enzo, some of the humans would have been proletariat too."
+        show scylla_confused at left
         s "And possibly not even all of the monsters who may or may not have been involved…"
         e "I'm just saying."
-        s "...saying {i}what{/i}?" 
+        s "...saying {i}what{/i}?"
+        hide scylla_confused
+        hide enzo_smile
         jump d2s3z6
 
     label d2s3z5mor:
         $ increase_affinity("Scylla", 1)
+        show scylla_serious
         s "Yeah, we shouldn't write anything off until we know more."
+        hide scylla_serious
         jump d2s3z6
 
     label d2s3z5ult:
         $ increase_affinity("Roger", 1)
+        show roger_confused
         r "Yeah, hang on, why isn't one of the questions why did the {i}humans{/i} get kidnapped?"
         r "What were they doing?"
+        hide roger_confused
+        show scylla_confused at left
+        show roger_confused at right
         s "Your new theory is that the {i}children{/i} are responsible for being kidnapped?"
         r "I'm just saying, all anyone talks about with this subject is \"Did monsters do this?\" \"Did monsters do that?\""
         r "What about the humans? What about personal responsibility?"
         s "For being {i}kidnapped{/i}?"
+        hide roger_confused
+        hide scylla_confused
         jump d2s3z6
 
     label d2s3z6:
+        show lalonde_normal
         l "I probably should be upset about how off-topic we've gotten, but asking questions about how the debate is framed {i}is{/i} what I'm trying to teach you."
         l "Look how much you're arguing without any actual evidence. Just based on your feelings."
         l "Without any certainty over what happened, you see how heated debates get."
         l "Now let's turn to the second half of the question: what caused the monsters to disappear after that?"
+        hide lalonde_normal
+        show scylla_confused
         s "I thought yesterday you said it was a combination of things."
+        hide scylla_confused
+        show lalonde_normal
         l "Certainly. It likely was. But just because it can be more than one thing, it doesn't make any of those factors any less important."
         l "There's no evidence that war broke out, but, again, we don't know for certain."
         l "But the lack of evidence of widespread violence raises different questions."
@@ -310,7 +326,10 @@ label D2S3:
         l "Was there an agreement? And if so, between whom?"
         l "All we really know now is that human society treats the whole thing fairly somberly."
         l "This is why so many institutions - the prestigious Vampire Academy, our very own town of Frights High, and the nearby Black Lagoon University - are named after monsters or what we remember of their culture."
+        hide lalonde_normal
+        show roger_smirk
         r "Big whoop."
+        hide roger_smirk
 
         menu:
             "Hey, a land acknowledgment is the least we can do.":
@@ -347,18 +366,34 @@ label D2S3:
         jump d2s3z7
 
     label d2s3z7:
+        show lalonde_normal
         l "One last theory for class today is a relatively new one based on new research out of Vampire Academy."
         l "Going through the archaeological records and trying to determine if a monster migration {i}had{/i} taken place, and comparing it to personal correspondences from the era, we get the coalition theory."
         l "This suggests that different humans with different viewpoints - pacifists, monster-relations activists, and so on - but a common goal of avoiding violence came together and met with monster leaders for an extrajudicial arrangement."
+        hide lalonde_normal
+        show colette_confused
         c "That's too many words. What does that mean?"
+        hide colette_confused
+        show enzo_smile at right
+        show colette_confused at left
         e "A secret society of humans and monsters did something {i}secret{/i}."
         c "Oh, then just say that."
+        hide colette_confused
+        hide enzo_smile
+        show scylla_confused
         s "A few humans got {i}all{/i} monsters on board with some unofficial plan? And that's why no one knows what happened?"
+        hide scylla_confused
+        show roger_concerned at left
+        show scylla_confused at right
         r "As if humans could pull something like that off."
         s "Well, wouldn't it have been humans {i}and{/i} monsters working together?"
+        hide scylla_confused
+        show enzo_smirk at right
         e "How romantic."
         r "History isn't about romance!"
         e "Hmm… [playerName] hasn't weighed in for a minute…"
+        hide roger_concerned
+        hide enzo_smirk
 
         menu:
             "About the coalition theory?":
@@ -372,9 +407,12 @@ label D2S3:
         $ increase_affinity("Roger", 1)
         $ increase_affinity("Lalonde", 1)
         $ increase_affinity("Scylla", 1)
+        $ increase_affinity("Enzo", 1)
+        show enzo_serious
         e "Oh, boo. You're no fun."
         m "I just think that maybe, as a human, I should spend some time listening to monster history first."
         e "Oh, very well, be {i}responsible{/i}."
+        hide enzo_serious
         jump d2s3z8
 
     label d2s3z7toki:
@@ -421,34 +459,45 @@ label D2S3:
                 "It doesn't matter if the state was involved or not. Money's what makes these things happen.":
                     jump d2s3z7ultA
 
-    label d2s3z6morA:
+    label d2s3z7morA:
         $ increase_affinity("Scylla", 1)
+        show scylla_confused
         s "Yeah… good point. I can't even get my volleyball team to do things they said they'd do."
+        hide scylla_confused
         jump d2s3z8
 
-    label d2s3z6fasA:
+    label d2s3z7fasA:
         $ decrease_affinity("Roger", 1)
         $ decrease_affinity("Lalonde", 1)
         $ decrease_affinity("Scylla", 1)
+        show roger_confused
         r "Wow, don't sound too excited about it."
+        hide roger_confused
         jump d2s3z8
 
-    label d2s3z6ultA:
+    label d2s3z7ultA:
         $ increase_affinity("Roger", 1)
+        show roger_serious
         r "Not wrong there."
+        show roger_serious
         jump d2s3z8
             
-    label d2s3z6mazA:
+    label d2s3z7mazA:
         $ increase_affinity("Lalonde", 1)
         $ increase_affinity("Enzo", 1)
+        show roger_confused
         r "Oh for crap's sake…"
+        hide roger_confused
+        show enzo_laugh
         e "THE REVOLUTION IS AT HAND!"
+        hide enzo_laugh
         jump d2s3z8
 
     label d2s3z8:
         m "(Class continued somewhat chaotically until the bell rang.)"
 
     if check_affinity_flexible("Lalonde", 6):
+        show lalonde_normal
         l "[playerName], do you have a moment?"
         l "I'm curious where you're thinking about applying to college."
         l "Based on your interests in class… I think you might be a good candidate for Vampire Academy."
@@ -459,6 +508,7 @@ label D2S3:
         m "Are you saying you'd be willing to recommend me for Vampire Academy? {i}Me?{/i} {i}The{/i} Vampire Academy?" 
         m "It would be really cool to get in there…"
         l "Keep working hard! A letter alone won't get you in there, I assume you know."
+        hide lalonde_normal
         jump PaS
 
     label PaS:

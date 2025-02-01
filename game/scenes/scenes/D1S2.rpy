@@ -56,6 +56,7 @@ label D1S2:
         s "What did {i}I{/i} think? I mean… it was fine. Monster history is always interesting."
         s "It's a… sad history."
         hide scylla_smile
+        jump d1s2z6
 
     label d1s2z4:
         $ increase_affinity("Scylla", 1)
@@ -156,5 +157,5 @@ label D1S2:
                 $ D1S3sB = True
                 jump D1S3s
             "Wait for Roger":
-                $ D1S3rB = True
+                $ D1S3rB = True 
                 jump D1S3r

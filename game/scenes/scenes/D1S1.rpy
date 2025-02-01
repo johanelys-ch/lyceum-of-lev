@@ -2,8 +2,7 @@ image bg classroom = "classroom.png"
 
 label D1S1:
     label d1s1z1:
-        scene bg classroom
-        pause 1
+        scene bg classroom with dissolve
 
         $ playerName = renpy.input("What's your name?", default = playerName)
         if playerName.strip() == "":
@@ -65,7 +64,9 @@ label D1S1:
         m "(It looks like Ms. Lalonde has decided to ignore all of this and get on with it.)"
         m "(She's really cool, though. She's happy to let us goof around a bit, and Enzo usually doesn't push it too far.)"
         m "(Usually.)"
-        # [something something colette winking or z-snapping at you]
+        show colette_smirk
+        m "(Colette z-snaps)"
+        hide colette_smirk
         m "(She's got {i}such{/i} a crush on Enzo. I think she's still in denial about it… but it's obvious.)"
         m "(I might have to decide whether to encourage her or not… but they're both such goofballs, I don't know if they'd be perfect for each other or terrible for each other.)"
         show lalonde_normal

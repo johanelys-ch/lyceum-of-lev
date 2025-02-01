@@ -1,5 +1,6 @@
 label D1S3s:
     label d1s3sz1:
+        scene bg_gym with dissolve
         $ increase_affinity("Scylla", 1)
         m "(I went to the gym to watch practice. I'd watched practice after school before. It's fun to watch, and I'll do homework if no one I want to talk to is there.)"
         m "(Since Scylla kind of invited me, I decided to sit closer than I usually do.)"
@@ -16,6 +17,7 @@ label D1S3s:
         vb "Well, since Leira doesn't know it, I have this other thing we could try."
         va "Oh, show us!"
         hide teammate_normal
+        hide teammate_normal_c
         hide scylla_serious
         m "(I don't know anything about volleyball, and I don't understand what they're talking about.)"
         m "(Scylla looked very frustrated throughout the rest of practice. I should say something.)"
@@ -138,9 +140,11 @@ label D1S3s:
         m "(...she keeps waving at me while she's leaving the gym.)"
         m "(She sure is enthusiastic… I wonder…)"
         hide scylla_smile
-        # flash effect bc colette took a picture
+        scene bg_gym with flash
+        show scylla_laugh
         s "Ooooo this is a good one!"
         m "Of what?"
+        hide scylla_laugh
         show colette_laugh
         c "Of a {i}special moment{/i}. See for yourself!"
         m "Colette… look how far away we are! You got this as she was leaving!"

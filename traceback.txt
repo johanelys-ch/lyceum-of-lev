@@ -2,15 +2,38 @@
 
 While running game code:
   File "game/script.rpy", line 11, in script call
+<<<<<<< HEAD
+    call D4S4s
+  File "game/scenes/scenes/D4S4s.rpy", line 23, in script
+    if affinities[Scylla] >= 7:
+  File "game/scenes/scenes/D4S4s.rpy", line 23, in <module>
+    if affinities[Scylla] >= 7:
+NameError: name 'Scylla' is not defined
+=======
     call D1S1
   File "game/scenes/scenes/D3S3.rpy", line 47, in script
     jump D3S4c
 ScriptError: could not find label 'D3S4c'.
+>>>>>>> cd2812859e2c3a3780a09b9d07000b8e6cd37671
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "game/script.rpy", line 11, in script call
+<<<<<<< HEAD
+    call D4S4s
+  File "game/scenes/scenes/D4S4s.rpy", line 23, in script
+    if affinities[Scylla] >= 7:
+  File "S:\renpy-8.3.4-sdk\renpy\ast.py", line 1849, in execute
+    if renpy.python.py_eval(condition):
+  File "S:\renpy-8.3.4-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "S:\renpy-8.3.4-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/scenes/scenes/D4S4s.rpy", line 23, in <module>
+    if affinities[Scylla] >= 7:
+NameError: name 'Scylla' is not defined
+=======
     call D1S1
   File "game/scenes/scenes/D3S3.rpy", line 47, in script
     jump D3S4c
@@ -19,8 +42,13 @@ Full traceback:
   File "/Users/alexolthoff/Desktop/renpy-8.3.4-sdk/renpy/script.py", line 1103, in lookup
     raise ScriptError("could not find label '%s'." % str(original))
 ScriptError: could not find label 'D3S4c'.
+>>>>>>> cd2812859e2c3a3780a09b9d07000b8e6cd37671
 
 macOS-14.3-arm64-arm-64bit arm64
 Ren'Py 8.3.4.24120703
 Lyceum of Leviathans 1.0
+<<<<<<< HEAD
+Fri Jan 31 19:55:17 2025
+=======
 Fri Jan 31 01:08:12 2025
+>>>>>>> cd2812859e2c3a3780a09b9d07000b8e6cd37671

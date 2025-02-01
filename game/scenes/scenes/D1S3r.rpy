@@ -103,7 +103,7 @@ label D1S3r:
         m "(I can barely read his handwriting, but he does have notes scrawled all over this.)"
         m "(I should try to give it back. I wonder if I can catch him?)"
         m "Hey! Roger! You dropped- ACK!"
-        # Some kind of flash effect for when Colette takes a photo of you
+        scene bg_stairs with flash
         show roger_concerned
         r "[playerName]...?"
         m "You're holding out your hand for me… is this… a gesture of friendship…"
@@ -171,12 +171,10 @@ label D1S3r:
         hide roger_concerned
         show roger_embarrassed
         r "...thank you. I have to go."
-        m "(He ge`ts up but he pauses at the door.)"
+        m "(He gets up but he pauses at the door.)"
         r "...I hope you feel better soon, poopface."
         hide roger_embarrassed
         m "(Roger leaves.)"
         m "(They check in on me again and clear me to go home too.)"
 
-        # $ print(affinities["Roger"])
-        # jump d2s4 still not implemented
         jump D1S4
